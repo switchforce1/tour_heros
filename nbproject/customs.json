@@ -1,0 +1,8 @@
+{
+    "elements": {
+        "app-root": {}
+    },
+    "attributes": {
+        "[(ngmodel)]": {}
+    }
+}
