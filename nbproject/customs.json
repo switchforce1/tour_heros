@@ -3,6 +3,7 @@
         "app-root": {}
     },
     "attributes": {
-        "[(ngmodel)]": {}
+        "[(ngmodel)]": {},
+        "*ngif": {}
     }
 }
