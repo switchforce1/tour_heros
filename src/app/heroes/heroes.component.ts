@@ -9,19 +9,9 @@ import { HeroService } from '../hero.service';
 })
 export class HeroesComponent implements OnInit {
     heroes : Hero[];
-    selectedHero: Hero;
     
-    hero: Hero = {
-        id: 1,
-        name: 'Windstorm'
-    };
     constructor(private heroService: HeroService) {
         this.heroService = heroService;
-    }
-    
-    //A la selection d'un hero
-    onSelect(hero: Hero): void {
-        this.selectedHero = hero;
     }
     
     //A l'initialisation de la classe
